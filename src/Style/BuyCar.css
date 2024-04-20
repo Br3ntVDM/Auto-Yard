@@ -1,0 +1,54 @@
+.heading {
+  text-align: center;
+  margin-top: 250px;
+  color: rgb(26, 81, 184); 
+}
+
+.car-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.car-card {
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  background: linear-gradient(to bottom, #007bff, #001f3f); 
+}
+
+.car-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.car-details {
+  text-align: center;
+}
+
+.car-details h2 {
+  margin-bottom: 10px;
+  color: white; 
+}
+
+.car-details p {
+  margin: 5px 0;
+  color: white; 
+}
+
+.buy-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+  background-color: #0056b3;
+}

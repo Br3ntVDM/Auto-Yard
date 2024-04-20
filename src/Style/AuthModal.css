@@ -1,0 +1,103 @@
+.auth-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  width: 400px;
+  height: auto; 
+}
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none; 
+  background: none; 
+}
+
+.close-btn:hover {
+  color: red; 
+  text-shadow: 0 0 5px red; 
+}
+.auth-forms {
+  text-align: center;
+}
+
+.signup-form {
+  margin-top: 20px; 
+}
+
+input[type='text'],
+input[type='password'],
+input[type='tel'] {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button[type='submit'] {
+  width: 100%;
+  background: linear-gradient(to right, #4cb8e3, #9055ff); 
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type='text']::placeholder,
+input[type='password']::placeholder,
+input[type='tel']::placeholder {
+  color: #999;
+}
+
+.error-msg {
+  color: red;
+}
+
+.login-button,
+.signup-button {
+  background-color: transparent;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+.login-button {
+  color: #2c3e50;
+}
+
+
+.signup-button {
+  color: #2980b9; 
+}
+
+
+.login-button:hover,
+.signup-button:hover {
+  background-color: #2c3e50; 
+  color: #fff; 
+  background-image: linear-gradient(135deg, #add8e6, #800080); 
+  text-decoration: none;
+}

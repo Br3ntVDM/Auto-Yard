@@ -1,0 +1,131 @@
+.sell-car-container {
+  max-width: 600px;
+  margin: 220px auto 300px;
+  padding: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.sell-car-heading {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+  font-style: italic; /* Italicize the text */
+  background: linear-gradient(90deg, #4a69ff, #8e44ad); /* Blue to purple gradient */
+  -webkit-background-clip: text; /* For Safari */
+  -webkit-text-fill-color: transparent; /* For Safari */
+  background-clip: text; /* Standard property */
+  color: transparent; /* Standard property */
+}
+
+.sell-car-subheading {
+  font-size: 1.2rem;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.sell-car-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.category-selection {
+  margin-bottom: 30px;
+}
+
+.category-heading {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-style: italic; /* Italicize the text */
+  background: linear-gradient(90deg, #4a69ff, #8e44ad); /* Blue to purple gradient */
+  -webkit-background-clip: text; /* For Safari */
+  -webkit-text-fill-color: transparent; /* For Safari */
+  background-clip: text; /* Standard property */
+  color: transparent; /* Standard property */
+}
+
+.category-options {
+  display: flex;
+  justify-content: center;
+}
+
+.category-option {
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.category-option:hover {
+  background-color: #ddd;
+}
+
+.category-option.selected {
+  background-color: #2b47e7;
+  color: #fff;
+}
+
+.form-heading {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.sell-car-form input,
+.sell-car-form textarea {
+  padding: 12px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.sell-car-form button {
+  padding: 12px 30px;
+  background-color: #2b47e7;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.sell-car-form button:hover {
+  background-color: #1c2e9e;
+}
+
+.about-section {
+  margin-top: 50px;
+  padding: 30px; 
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding-bottom: 300px;
+}
+
+.about-you-heading {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-style: italic;
+  background: linear-gradient(90deg, #4a69ff, #8e44ad); 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+  background-clip: text; 
+  color: transparent;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-info {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px; 
+}
+
+.about-info-item {
+  margin-bottom: 10px;
+}

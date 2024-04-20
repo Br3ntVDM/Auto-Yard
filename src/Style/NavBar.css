@@ -1,0 +1,145 @@
+.app-header {
+  background: linear-gradient(to bottom right, #2b47e7, #000102); 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+}
+
+.app-title-left {
+  color: #fff;
+  margin-left: 20px;
+  font-size: 36px;
+  font-family: 'Arial', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.app-title-left a{
+  color: white;
+}
+
+.nav-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-menu li {
+  display: inline;
+  margin-right: 20px;
+  position: relative; 
+}
+
+.nav-menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Arial', sans-serif; 
+  font-size: 18px; 
+  padding: 10px 15px; 
+  position: relative;
+}
+
+.nav-menu li a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px; 
+  color: #00aeff;
+  background-color: #81d4fa; 
+  transition: width 0.3s ease; 
+}
+
+/* Increase width when hovered */
+.nav-menu li a:hover::after {
+  width: 100%;
+  color: #00aeff;
+}
+
+.nav-toggle {
+  display: none; /* Initially hide */
+}
+
+@media only screen and (max-width: 768px) {
+  .app-title-left {
+    margin-left: 0; /* Remove margin */
+  }
+  
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #3f51b5;
+    z-index: 1000;
+    overflow: hidden;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .nav-menu.active {
+    transform: translateY(0);
+  }
+
+  .nav-menu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .nav-menu li {
+    display: block;
+    margin: 20px 0;
+  }
+
+  .nav-toggle {
+    display: block; /* Show burger menu */
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    z-index: 1500;
+  }
+
+  .nav-toggle::before,
+  .nav-toggle::after {
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    width: 30px;
+    height: 3px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .nav-toggle::before {
+    top: 0;
+  }
+
+  .nav-toggle::after {
+    bottom: 0;
+  }
+
+  .nav-toggle.active::before {
+    transform: translateY(10px) rotate(45deg);
+  }
+
+  .nav-toggle.active::after {
+    transform: translateY(-10px) rotate(-45deg);
+  }
+
+  .nav-toggle.active {
+    z-index: 1500;
+  }
+}
