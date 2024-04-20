@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Auto-Yard/static/css/main.61a8714d.css",
+    "main.js": "/Auto-Yard/static/js/main.58eede98.js",
+    "static/js/453.cdcd4d94.chunk.js": "/Auto-Yard/static/js/453.cdcd4d94.chunk.js",
+    "static/media/welcomgif.gif": "/Auto-Yard/static/media/welcomgif.fb74b23da21b42902de9.gif",
+    "static/media/dummycar.jpg": "/Auto-Yard/static/media/dummycar.0094629aebd6531106ea.jpg",
+    "static/media/warehouse3.jpg": "/Auto-Yard/static/media/warehouse3.643a9e558a66986ca76c.jpg",
+    "static/media/warehouse2.jpg": "/Auto-Yard/static/media/warehouse2.69052f52ce4b450c60ad.jpg",
+    "static/media/warehouse1.jpg": "/Auto-Yard/static/media/warehouse1.9c6ce74e9ac8a55881d3.jpg",
+    "index.html": "/Auto-Yard/index.html",
+    "main.61a8714d.css.map": "/Auto-Yard/static/css/main.61a8714d.css.map",
+    "main.58eede98.js.map": "/Auto-Yard/static/js/main.58eede98.js.map",
+    "453.cdcd4d94.chunk.js.map": "/Auto-Yard/static/js/453.cdcd4d94.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61a8714d.css",
+    "static/js/main.58eede98.js"
+  ]
+}
